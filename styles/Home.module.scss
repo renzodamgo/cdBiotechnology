@@ -1,1 +1,72 @@
 @import "variables.module";
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: $secondary-color;
+}
+.title {
+  margin-top: 5px;
+  color: $primary-color;
+}
+
+.container {
+  max-width: 1173px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+#marcas {
+  text-align: center;
+  .logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  img {
+    align-self: center;
+    justify-self: center;
+        margin-top: 10px;
+
+
+    width: 80%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-out;
+  }
+
+  img:hover {
+    transform: scale(1.02);
+    filter: grayscale(0%);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .subtitle {
+      font-size: 25px;
+  }
+  .title {
+      font-size: 35px;
+  }
+
+  #marcas {
+    text-align: start;
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+
+      .titles {
+        width: 30%;
+      }
+      .logos {
+        width: 60%;
+      }
+    }
+    img{
+        width: 60%;
+        margin-top: 10px;
+        justify-self: flex-end;
+    }
+  }
+
+}
