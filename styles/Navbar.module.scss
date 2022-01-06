@@ -1,0 +1,35 @@
+@import "variables.module";
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    img{
+
+        height: 40px;
+    }
+}
+
+#nav{
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+    max-width: 1020px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    // gap: 50px;
+    li{
+        padding: 20px;
+        a{
+            transition: color 200ms;
+        }
+        a:hover{
+            color: $accent-color;
+        }
+    }
+}
+
