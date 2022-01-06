@@ -26,14 +26,16 @@ img{
 }
 
 #upnavbar {
+  display: flex;
+  justify-content: center;
   width: 100%;
   background-color: $accent-color;
 
   ul{
     margin: 0;
-    padding:7px 50px 6px 50px;
+    padding:7px 20px 6px 20px;
     width: 100%;
-    max-width: 1020px;
+    max-width: 1173px;
     list-style: none;
     display: flex;
     flex-direction: row;
