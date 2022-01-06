@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
-import { Navbar } from './navbar'
-import { UpNavBar } from './upnavbar'
+import { Navbar } from '../components/shared/navbar'
+import { UpNavBar } from '../components/shared/upnavbar'
 
 export default function Home() {
   return (
