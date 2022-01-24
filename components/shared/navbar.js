@@ -9,7 +9,7 @@ export const Navbar = ()=>  {
         <nav>
             <div id="desktop">
             <div className={styles.container}>
-                <img src="imgs/rtlogo.png" alt="Biotechnology Logo" />
+                    <img src="imgs/C&D_Biotechnology_responsive-color.svg" alt="Biotechnology Logo" />
 
                 <ul id={styles.nav}>
 
@@ -25,7 +25,7 @@ export const Navbar = ()=>  {
 
             <div id="mobile">
                 <div className={styles.container}>
-                    <img src="imgs/rtlogo.png" alt="Biotechnology Logo" />
+                    <img src="imgs/C&D_Biotechnology_responsive-color.svg" alt="Biotechnology Logo" />
 
                     <ul id={styles.nav}>
 
